@@ -1,0 +1,10 @@
+# Vim Artifacts
+*.swo
+*.swp
+.ctrlp_cache/
+
+# Dumptruck
+.dumptruck
+
+# Finder Artifacts
+.DS_Store
