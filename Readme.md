@@ -14,4 +14,4 @@ Install Python and pip
 
 `>>> nltk.download() # Then install punkt and stopwords`
 
-`python clustering.py`
+`python clustering.py {Path to keywords text file}`
