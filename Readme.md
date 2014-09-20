@@ -12,6 +12,6 @@ Install Python and pip
 
 `>>> import nltk`
 
-`>>> nltk.download() # Then install punkt stopwords`
+`>>> nltk.download() # Then install punkt and stopwords`
 
 `python clustering.py`
