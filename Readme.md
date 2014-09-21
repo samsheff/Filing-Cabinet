@@ -1,7 +1,7 @@
 Filing Cabinet
 ==============
 
-Classifies keywords into relevant groups
+Classifies keywords into relevant groups using Python, NLTK and kMeans.
 
 # To Use:
 Install Python and pip
