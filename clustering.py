@@ -36,6 +36,9 @@ if __name__ == '__main__':
  
     if len(sys.argv) == 2:
         filename = sys.argv[1]
+    else:
+        print "No filename specified! Exiting."
+        exit()
  
     with open(filename) as title_file:
  
@@ -47,6 +50,8 @@ if __name__ == '__main__':
  
         print "Creating Cluster Instance"
         cluster = KMeansClusterer(10, euclidean_distance, 5)
+
+        # Alternative Clusterer - Less accurate for my use
         #cluster = GAAClusterer(20)
         
         print "Clustering"
